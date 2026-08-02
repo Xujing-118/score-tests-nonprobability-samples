@@ -6,8 +6,8 @@ library(Matrix)
 set.seed(2026)
 
 N <- 100000
-nA <- 500
-nB <- 500
+nA <- 500 #500,1000,2000
+nB <- 500 #500,1000,2000
 sim_times <- 2000
 
 x <- rnorm(N, mean = 1, sd = 1)#X
