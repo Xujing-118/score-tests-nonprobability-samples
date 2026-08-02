@@ -5,8 +5,8 @@ library(dplyr)
 library(MASS)
 
 
-SA <-file.path("data", "SA1.xlsx")
-SB <-file.path("data", "SB1.xlsx")
+SA <-file.path("data", "SA1.xlsx") #SA1,SA2,SA3
+SB <-file.path("data", "SB1.xlsx") #SB1,SB2,SB3
 
 Y_name <- "SOCTRUST"
 weight_name <- "WEIGHT"
